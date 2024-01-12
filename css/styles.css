@@ -160,7 +160,7 @@ body {
 .header-menu-item {
 	white-space: nowrap;
 	/* margin-right: 40px; */
-	position: relative;
+	/* position: relative; */
 }
 
 .header-menu-link {
@@ -168,6 +168,7 @@ body {
 	color: #2E2F42;
 	padding: 24px 0;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	position: relative;
 }
 
 .header-menu-link.is-active::after {
@@ -175,7 +176,6 @@ body {
 	position: absolute;
 	bottom: -1px;
 	left: 0;
-	top: 38px;
 	width: 48px;
 	height: 4px;
 	background-color: #404bbf;
