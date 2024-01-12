@@ -126,7 +126,6 @@ body {
 .header {
 	color: #2E2F42;
 	border-bottom: 1px solid #E7E9FC;
-
 }
 
 .header-container {
@@ -241,6 +240,8 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	max-width: 1440px;
+	width: 100%;
 }
 
 .hero-container {
@@ -248,8 +249,6 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	max-width: 1440px;
-	width: 100%;
 	/* background-color: #2E2F42B2; */
 	/* background-color: rgba(46, 47, 66, 0.7); */
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
