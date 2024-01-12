@@ -466,7 +466,10 @@ body {
 	padding-top: 100px;
 	padding-bottom: 100px;
 	display: flex;
-	gap: 120px;
+}
+
+.footer-content {
+	margin-right: 120px
 }
 
 .footer-content-logo {
@@ -518,6 +521,17 @@ body {
 }
 
 .footer-box-img {
-
 	fill: #F4F4FD;
+}
+
+.footer-box-item:hover .footer-box-link {
+	background-color: #31D0AA;
+}
+
+.footer-box-item:focus .footer-box-link {
+	background-color: #31D0AA;
+}
+
+.footer-box-item:active .footer-box-link {
+	background-color: #31D0AA;
 }
