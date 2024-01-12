@@ -452,7 +452,19 @@ body {
 		box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.portfolio-item.is-active {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-item:hover {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-item:focus {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-item:active {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -485,28 +497,28 @@ body {
 		transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
-.portfolio-box-item.is-active .portfolio-box-overlay {
+.portfolio-item.is-active .portfolio-box-overlay {
 	transform: translateY(0%);
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 		0px 1px 1px rgba(46, 47, 66, 0.16),
 		0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-box-item:hover .portfolio-box-overlay {
+.portfolio-item:hover .portfolio-box-overlay {
 	transform: translateY(0%);
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 		0px 1px 1px rgba(46, 47, 66, 0.16),
 		0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-box-item:active .portfolio-box-overlay {
+.portfolio-item:active .portfolio-box-overlay {
 	transform: translateY(0%);
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 		0px 1px 1px rgba(46, 47, 66, 0.16),
 		0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-box-item:focus .portfolio-box-overlay {
+.portfolio-item:focus .portfolio-box-overlay {
 	transform: translateY(0%);
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 		0px 1px 1px rgba(46, 47, 66, 0.16),
