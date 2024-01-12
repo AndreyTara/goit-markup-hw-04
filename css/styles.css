@@ -392,18 +392,17 @@ body {
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-box-link:hover {
-	background-color: #31d0aa;
-
+.team-item:hover .team-box-link {
+	background-color: #404BBF;
 }
 
-/* .team-box-link:focus {
-	background-color: #31d0aa;
-} */
+.team-item:focus .team-box-link {
+	background-color: #404BBF;
+}
 
-/* .team-box-link:active {
-	background-color: #31d0aa;
-} */
+.team-item:active .team-box-link {
+	background-color: #404BBF;
+}
 
 .team-box-img {
 	fill: #f4f4fd;
