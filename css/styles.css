@@ -238,6 +238,10 @@ body {
 .hero {
 	max-width: 1440px;
 	width: 100%;
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-people-office.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 .hero-container {
@@ -245,10 +249,6 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-people-office.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 	padding-top: 188px;
 	padding-bottom: 188px;
 }
@@ -274,11 +274,11 @@ body {
 	line-height: 1.50;
 	letter-spacing: 0.04em;
 	color: #FFFFFF;
-	background-color: #4d5ae5;
-	cursor: pointer;
 	padding: 16px 32px 16px 32px;
 	border-radius: 4px;
+	cursor: pointer;
 	margin: 0 auto;
+	background-color: #4d5ae5;
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -335,10 +335,7 @@ body {
 	background-color: #F4F4FD;
 }
 
-.team-title {
-	/* text-align: center;
-	text-transform: capitalize; */
-}
+.team-title {}
 
 .team-list {
 	display: flex;
@@ -554,7 +551,7 @@ body {
 	fill: #F4F4FD;
 }
 
-.footer-box-link:hover {
+/* .footer-box-link:hover {
 	background-color: #31d0aa;
 }
 
@@ -564,4 +561,4 @@ body {
 
 .footer-box-link:active {
 	background-color: #31d0aa;
-}
+} */
