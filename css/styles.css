@@ -199,6 +199,7 @@ body {
 	color: #404bbf;
 }
 
+
 .header-address {
 	padding: 24px 0;
 }
@@ -351,6 +352,12 @@ body {
 	transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.team-item.is-active {
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+		0px 1px 1px rgba(46, 47, 66, 0.16),
+		0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .team-item:hover {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 		0px 1px 1px rgba(46, 47, 66, 0.16),
@@ -367,6 +374,22 @@ body {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 		0px 1px 1px rgba(46, 47, 66, 0.16),
 		0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.team-item.is-active .team-box-link {
+	background-color: #404bbf;
+}
+
+.team-item:hover .team-box-link {
+	background-color: #404bbf;
+}
+
+.team-item:focus .team-box-link {
+	background-color: #404bbf;
+}
+
+.team-item:active .team-box-link {
+	background-color: #404bbf;
 }
 
 
@@ -406,18 +429,6 @@ body {
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-item:hover .team-box-link {
-	background-color: #404bbf;
-}
-
-.team-item:focus .team-box-link {
-	background-color: #404bbf;
-}
-
-.team-item:active .team-box-link {
-	background-color: #404bbf;
-}
-
 .team-box-img {
 	fill: #f4f4fd;
 }
@@ -436,6 +447,11 @@ body {
 }
 
 .portfolio-item {
+	transition:
+		box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item:hover {
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -468,12 +484,12 @@ body {
 		transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
-/* .portfolio-box-item.is-active .portfolio-box-overlay {
+.portfolio-box-item.is-active .portfolio-box-overlay {
 	transform: translateY(0%);
 	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 		0px 1px 1px rgba(46, 47, 66, 0.16),
 		0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
+}
 
 .portfolio-box-item:hover .portfolio-box-overlay {
 	transform: translateY(0%);
