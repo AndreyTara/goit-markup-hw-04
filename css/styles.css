@@ -390,15 +390,15 @@ body {
 }
 
 .team-item:hover .team-box-link {
-	background-color: #404BBF;
+	background-color: #404bbf;
 }
 
 .team-item:focus .team-box-link {
-	background-color: #404BBF;
+	background-color: #404bbf;
 }
 
 .team-item:active .team-box-link {
-	background-color: #404BBF;
+	background-color: #404bbf;
 }
 
 .team-box-img {
@@ -551,7 +551,7 @@ body {
 	fill: #F4F4FD;
 }
 
-/* .footer-box-link:hover {
+.footer-box-link:hover {
 	background-color: #31d0aa;
 }
 
@@ -561,4 +561,4 @@ body {
 
 .footer-box-link:active {
 	background-color: #31d0aa;
-} */
+}
