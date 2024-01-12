@@ -236,7 +236,9 @@ body {
 .main {}
 
 .hero {
-	background-image: url(../images/hero-people-office.jpg);
+	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-people-office.jpg);
+	/* background-image: url(../images/hero-people-office.jpg);
+	background-color: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)); */
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -249,12 +251,6 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	/* background-color: #2E2F42B2; */
-	/* background-color: rgba(46, 47, 66, 0.7); */
-	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
 	padding-top: 188px;
 	padding-bottom: 188px;
 }
