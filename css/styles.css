@@ -556,14 +556,14 @@ body {
 	fill: #F4F4FD;
 }
 
-.footer-box-item:hover .footer-box-link {
+.footer-box-link:hover {
 	background-color: #31d0aa;
 }
 
-.footer-box-item:focus .footer-box-link {
+.footer-box-link:focus {
 	background-color: #31d0aa;
 }
 
-.footer-box-item:active .footer-box-link {
+.footer-box-link:active {
 	background-color: #31d0aa;
 }
