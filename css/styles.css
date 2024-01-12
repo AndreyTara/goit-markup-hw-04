@@ -438,6 +438,11 @@ body {
 .portfolio-box-img {}
 
 .portfolio-box-overlay {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	text-align: left;
 	position: absolute;
 	top: 0;
 	left: 0;
