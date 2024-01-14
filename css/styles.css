@@ -35,6 +35,7 @@ body {
 }
 
 a {
+	display: block;
 	text-decoration: none;
 	color: inherit;
 }
@@ -53,6 +54,10 @@ body {
 	max-width: 1440px;
 	width: 100%;
 	margin: 0 auto;
+}
+
+nav {
+	padding: 0;
 }
 
 .container {
@@ -132,6 +137,8 @@ body {
 .header-container {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	padding: 24px 0;
 }
 
 .header-menu {
@@ -139,7 +146,8 @@ body {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-	padding: 24px 0;
+	/* padding: 24px 0; */
+	/*14-01-2024 из #3checkTeacher*/
 }
 
 .header-menu-logo {
@@ -165,7 +173,8 @@ body {
 
 .header-menu-link {
 	font-weight: 500;
-	padding: 24px 0;
+	/* padding: 24px 0; */
+	/*14-01-2024 из #3checkTeacher*/
 	color: #2e2f42;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	position: relative;
@@ -201,7 +210,10 @@ body {
 
 
 .header-address {
-	padding: 24px 0;
+	display: flex;
+	align-items: center;
+	/* padding: 24px 0; */
+	/*14-01-2024 из #3checkTeacher*/
 }
 
 .header-address-list {
@@ -216,7 +228,7 @@ body {
 
 .header-address-link {
 	color: #434455;
-	/* padding: 24px 0; */
+	/* padding: 24px 0;  14-01-2024 из #3checkTeacher*/
 	white-space: nowrap;
 	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -327,12 +339,14 @@ body {
 	text-align: left;
 	margin-bottom: 8px;
 	text-transform: none;
+	/*14-01-2024 из #3checkTeacher#4checkTeacher*/
 }
 
 .skills-text {
 	text-align: left;
 	text-transform: none;
 	font-weight: 500;
+	/*14-01-2024 из #3checkTeacher#4checkTeacher*/
 }
 
 .team {
@@ -356,32 +370,6 @@ body {
 		0px 1px 1px rgba(46, 47, 66, 0.16),
 		0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-
-/* 
-.team-item.is-active {
-	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-		0px 1px 1px rgba(46, 47, 66, 0.16),
-		0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.team-item:hover {
-	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-		0px 1px 1px rgba(46, 47, 66, 0.16),
-		0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.team-item:focus {
-	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-		0px 1px 1px rgba(46, 47, 66, 0.16),
-		0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.team-item:active {
-	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-		0px 1px 1px rgba(46, 47, 66, 0.16),
-		0px 2px 1px rgba(46, 47, 66, 0.08);
-} */
-
 
 .team-img {}
 
@@ -540,10 +528,12 @@ body {
 .portfolio-subtitle {
 	margin-bottom: 8px;
 	text-align: left;
+	/*14-01-2024 из #3checkTeacher#4checkTeacher*/
 }
 
 .portfolio-text {
 	text-align: left;
+	/*14-01-2024 из #3checkTeacher#4checkTeacher*/
 }
 
 
@@ -578,7 +568,8 @@ body {
 	color: #faf4fd;
 	max-width: 264px;
 	line-height: 1.5;
-	letter-spacing: -0.02em;
+	letter-spacing: 0.02em;
+	/* було letter-spacing: -0.02em; 14-01-2024 из #3checkTeacher*/
 	text-align: left;
 }
 
