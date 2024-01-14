@@ -326,10 +326,13 @@ body {
 .skills-subtitle {
 	text-align: left;
 	margin-bottom: 8px;
+	text-transform: none;
 }
 
 .skills-text {
 	text-align: left;
+	text-transform: none;
+	font-weight: 500;
 }
 
 .team {
@@ -422,20 +425,7 @@ body {
 	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-item.is-active .team-box-link {
-	background-color: #404bbf;
-}
-
-.team-item:hover .team-box-link {
-	background-color: #404bbf;
-	/*OCEAN-#404BBF */
-}
-
-.team-item:focus .team-box-link {
-	background-color: #404bbf;
-}
-
-.team-item:active .team-box-link {
+.team-box-link:hover {
 	background-color: #404bbf;
 }
 
@@ -549,9 +539,12 @@ body {
 
 .portfolio-subtitle {
 	margin-bottom: 8px;
+	text-align: left;
 }
 
-.portfolio-text {}
+.portfolio-text {
+	text-align: left;
+}
 
 
 .footer {
@@ -584,6 +577,7 @@ body {
 .footer-content-text {
 	color: #faf4fd;
 	max-width: 264px;
+	line-height: 1.5;
 	letter-spacing: -0.02em;
 	text-align: left;
 }
