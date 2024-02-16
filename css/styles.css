@@ -106,7 +106,7 @@ nav {
 
 .subtitle {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -165,7 +165,11 @@ nav {
 }
 
 .header-menu-link {
+  font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
   padding: 24px 0;
   color: #2e2f42;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -216,10 +220,10 @@ nav {
 }
 
 .header-address-link {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
   white-space: nowrap;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -339,15 +343,11 @@ nav {
   text-align: left;
   margin-bottom: 8px;
   text-transform: none;
-  font-weight: 500;
-  text-transform: unset;
 }
 
 .skills-text {
   text-align: left;
   text-transform: none;
-  font-weight: 500;
-  text-transform: unset;
 }
 
 .team {
