@@ -246,8 +246,6 @@ nav {
 
 .hero {
   margin: 0 auto;
-  max-width: 1440px;
-  width: 100%;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -256,13 +254,6 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.hero-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -276,6 +267,7 @@ nav {
   color: #ffffff;
   max-width: 496px;
   width: 100%;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
 
