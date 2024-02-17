@@ -245,6 +245,8 @@ nav {
 }
 
 .hero {
+  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
